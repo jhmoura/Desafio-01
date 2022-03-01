@@ -81,19 +81,24 @@ a{
 section a{
     color: #FF4081;
     border: 2px solid #FF4081;
-box-sizing: border-box;
-border-radius: 62px;
-font-size: 27px;
-padding: 10px;
-font-size: 27px;
+    box-sizing: border-box;
+    border-radius: 62px;
+    font-size: 27px;
+    padding: 10px;
+    font-size: 27px;
 }
 
 .secao-2, .secao-4{
     background: #F6F6F6;
     display: flex;
+    padding: 20px;
 }
 
 img{
     max-width: 288px;
     max-height: 270px;
+}
+
+#primeira{
+    justify-content: center;
 }
