@@ -29,3 +29,28 @@ nav{
 #logo{
     margin-left: 47px;
 }
+
+.container-rodape{
+    background: #2E948A;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-rodape{
+    margin-left: 128px;
+}
+
+.menu-item-rodape{
+    list-style-type: none;
+}
+.links{
+    margin: 10;
+}
+.links a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    border: #fff solid 1px;
+    padding: 10px
+}
