@@ -8,7 +8,6 @@
 .container-logo{
     background: #2E948A;
     display: flex;
-    flex-direction: row;
     box-shadow: 0px 3px 7px 0px #00000040;
 }
 
@@ -20,6 +19,7 @@
 .menu-item-link{
     text-decoration: none;
     color: #fff;
+    margin: 10px;
 }
 
 nav{
@@ -43,14 +43,57 @@ nav{
 .menu-item-rodape{
     list-style-type: none;
 }
+
 .links{
     margin: 10;
 }
+
 .links a{
     display: flex;
     text-decoration: none;
     color: #fff;
     justify-content: center;
     border: #fff solid 1px;
-    padding: 10px
+    padding: 10px;
+    border-radius: 62px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h1{
+    color: #FF4081;
+}
+
+#primeira h1{
+    font-size: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+section a{
+    color: #FF4081;
+    border: 2px solid #FF4081;
+box-sizing: border-box;
+border-radius: 62px;
+font-size: 27px;
+padding: 10px;
+font-size: 27px;
+}
+
+.secao-2, .secao-4{
+    background: #F6F6F6;
+    display: flex;
+}
+
+img{
+    max-width: 288px;
+    max-height: 270px;
 }
