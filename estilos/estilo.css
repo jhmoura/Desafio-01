@@ -9,11 +9,13 @@
     background: #2E948A;
     display: flex;
     box-shadow: 0px 3px 7px 0px #00000040;
+    
 }
 
 .menu-item{
     display: inline;
     font-size: 20px;
+    
 }
 
 .menu-item-link{
@@ -24,6 +26,7 @@
 
 nav{
     margin-top: 20px;
+    
 }
 
 #logo{

@@ -69,24 +69,36 @@ h1{
 }
 
 .linha{
-    width: 1244px;
+    width: 80%;
     height: 5px;
-    left: 82px;
-    top: 834px;
     background: #C4C4C4;
 }
 
 .cursos{
     display: flex;
-    margin: 112px;
+    margin: 5%;
 }
 
 .cursos-desc{
-    display: flex;
-    flex-direction: column;
+    padding: 5%;
 }
 
 main img{
     Width: 380px;
     Height: 381px;
+}
+
+main a{
+    color: #fff;
+    background-color:#2E948A;
+    padding: 13px;
+    border-radius: 62px;
+}
+
+.topo{
+    margin: 5%;
+}
+
+.topo h1{
+    font-size: 60px;
 }
