@@ -48,6 +48,10 @@ nav{
     margin: 10;
 }
 
+a{
+    text-decoration: none;
+}
+
 .links a{
     display: flex;
     text-decoration: none;
@@ -59,81 +63,30 @@ nav{
     margin-top: 7px;
     font-size: 20px;
 }
-/* Seção */
-section{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
 
 h1{
     color: #FF4081;
 }
 
-#primeira h1{
-    font-size: 60px;
-}
-
-a{
-    text-decoration: none;
-}
-
-section a{
-    color: #FF4081;
-    border: 2px solid #FF4081;
-    box-sizing: border-box;
-    border-radius: 62px;
-    font-size: 27px;
-    padding: 10px;
-    font-size: 27px;
-}
-
-.secao-2, .secao-4{
-    background: #F6F6F6;
-    display: flex;
-    padding: 20px;
-}
-
-img{
-    max-width: 288px;
-    max-height: 270px;
-}
-
-#primeira{
-    justify-content: center;
-    align-items: center;
-}
-
-/* Seção 3*/
-
-.depoimentos{
-    display: flex;
-    margin: 78px;
-}
-
-.secao-3 h1{
-    color: #009688;
-    font-size: 37px;
-}
-
-.container-3{
-    padding: 119px 128px;
-}
-/*seão 4*/
-
-.container-4{
-    
-}
-
-.container-4 h1, h2{
-    color: #009688;
-}
-
-.container-4 img{
-    height: 193px;
-    width: 319px;
-    left: 128px;
-    top: 2467px;
-    border-radius: 0px;
+.linha{
+    width: 1244px;
+    height: 5px;
+    left: 82px;
+    top: 834px;
     background: #C4C4C4;
+}
+
+.cursos{
+    display: flex;
+    margin: 112px;
+}
+
+.cursos-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+main img{
+    Width: 380px;
+    Height: 381px;
 }
