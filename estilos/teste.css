@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Ubuntu, Consolas, "Courier New";
+}
+
+header{
+    background-color: #2E948A;
+}
+
+.container{
+   padding: 1% 2%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 3px 7px 0px #00000040; 
+}
+
+nav ul li{
+    display: inline;
+}

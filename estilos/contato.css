@@ -1,21 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-*{
-    margin: 0 auto;
-    font-family: Ubuntu, Consolas, "Courier New";
-}
-
-.container-logo{
+header{
     background: #2E948A;
+    padding: 1% 2%;
+    color: white;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
     box-shadow: 0px 3px 7px 0px #00000040;
-    
 }
 
 .menu-item{
     display: inline;
     font-size: 20px;
-    
 }
 
 .menu-item-link{
@@ -26,21 +23,14 @@
 
 nav{
     margin-top: 20px;
-    
-}
-
-#logo{
-    margin-left: 47px;
 }
 
 .container-rodape{
     background: #2E948A;
     display: flex;
-    flex-direction: row;
-}
-
-.logo-rodape{
-    margin-left: 128px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
 }
 
 .menu-item-rodape{

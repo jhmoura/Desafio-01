@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0;
     font-family: Ubuntu, Consolas, "Courier New";
 }
 
 header{
     background: #2E948A;
+    padding: 1% 2%;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    box-shadow: 0px 3px 7px 0px #00000040; 
+    box-shadow: 0px 3px 7px 0px #00000040;
 }
 
 .menu-item{
@@ -33,11 +35,9 @@ nav{
 .container-rodape{
     background: #2E948A;
     display: flex;
-    flex-direction: row;
-}
-
-.logo-rodape{
-    margin-left: 128px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
 }
 
 .menu-item-rodape{
@@ -62,12 +62,16 @@ nav{
 /* Seção */
 section{
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-around;
+    padding: 2%;
 }
 
 h1{
     color: #FF4081;
+}
+
+.secao-1{
+    padding: 3%;
 }
 
 #primeira h1{
@@ -88,10 +92,10 @@ section a{
     font-size: 27px;
 }
 
-.secao-2, .secao-4{
+.secao-2{ 
     background: #F6F6F6;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: justify;
     padding: 5%;
 }
@@ -119,7 +123,7 @@ img{
 }
 
 .container-3{
-    padding: 119px 128px;
+    padding: 5%;
 }
 /*seão 4*/
 
@@ -136,4 +140,10 @@ img{
     width: 319px;
     border-radius: 0px;
     background: #C4C4C4;
+}
+
+.secao-4{
+    background: #F6F6F6;
+    display: flex;
+    justify-content: space-around;   
 }
