@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Ubuntu, Consolas, "Courier New";
+}
+
 header{
     background: #2E948A;
     padding: 1% 2%;
@@ -51,4 +58,45 @@ nav{
     border-radius: 62px;
     margin-top: 7px;
     font-size: 20px;
+}
+
+.topo-curso{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 20%;
+}
+
+main h1{
+    size: 55px;
+    color: #FF4081;
+}
+
+section{
+    background-color:  #F7F7F7;
+    align-items: center;
+    padding: 1% 10%;
+}
+
+iframe{
+    border: 3px solid #8E8E8E;
+    box-sizing: border-box;
+    max-width: 462px;
+    max-height: 261px;
+}
+
+.aula{
+    display:flex;
+    justify-content: space-around;
+    padding: 1% 10%;
+}
+
+.desc{
+    margin: 0% 10%;
+}
+
+.linha{
+    width: 80%;
+    height: 3px;
+    background: #C4C4C4;
+    margin-left: 10%;
 }
