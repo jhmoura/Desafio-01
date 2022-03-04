@@ -93,7 +93,10 @@ h3{
 
 .cursos a{
     text-decoration: none;
-    color: #FF4081;
+    background-color: #FF4081;
+    padding: 2% 5%;
+    color:#fff;
+    border-radius: 62px;
 }
 
 .cursos h1{
@@ -103,14 +106,14 @@ h3{
 .cursos{
     background-color: #F7F7F7;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.cursos div{
+.cursos-cursos{
+    padding: 1%;
     display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    align-items: center;
 }
 
 .cursos img{
