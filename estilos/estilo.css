@@ -5,17 +5,19 @@
     font-family: Ubuntu, Consolas, "Courier New";
 }
 
-.container-logo{
+header{
     background: #2E948A;
     display: flex;
-    box-shadow: 0px 3px 7px 0px #00000040;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 3px 7px 0px #00000040; 
 }
 
 .menu-item{
     display: inline;
     font-size: 20px;
-    
 }
 
 .menu-item-link{
@@ -26,11 +28,6 @@
 
 nav{
     margin-top: 20px;
-    
-}
-
-#logo{
-    margin-left: 47px;
 }
 
 .container-rodape{
@@ -94,7 +91,9 @@ section a{
 .secao-2, .secao-4{
     background: #F6F6F6;
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 5%;
 }
 
 img{
@@ -124,8 +123,8 @@ img{
 }
 /*seão 4*/
 
-.container-4{
-    
+.container-4-conteudo{
+    display: flex;
 }
 
 .container-4 h1, h2{
@@ -135,8 +134,6 @@ img{
 .container-4 img{
     height: 193px;
     width: 319px;
-    left: 128px;
-    top: 2467px;
     border-radius: 0px;
     background: #C4C4C4;
 }

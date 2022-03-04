@@ -63,16 +63,45 @@ nav{
     font-size: 20px;
 }
 
-main h1{
+h1{
     color: #2E948A;
+}
+h2{
+    color: #FF4081;
 }
 
 .topo-blog{
     display: flex;
-    flex-direction: column;
-    margin: 5%;
+    margin: 2% 10%;
 }
 
 .conteudo-blog{
     background: #F7F7F7;
+}
+
+.topo-blog-conteudo{
+    margin-top: 10%;
+}
+
+.conteudo-blog img{
+    max-width: 518px;
+    max-height: 259px;
+    background-color: #C4C4C4;
+}
+
+.conteudo-blog{
+    margin: 0;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 7% 2%;
+}
+
+.retangulo {
+    width:500px;
+    height:250px;
+    background-color: #C4C4C4;
+    margin: 10px 0;    
 }
