@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    font-family: Ubuntu, Consolas, "Courier New";
+}
+
 header{
     background: #2E948A;
     padding: 1% 2%;
@@ -51,4 +58,63 @@ nav{
     border-radius: 62px;
     margin-top: 7px;
     font-size: 20px;
+}
+
+main h1{
+    color: #FF4081;
+    font-size: 50px;
+}
+
+main h2{
+    color:#2E948A
+}
+
+.topo{
+    text-align: center;
+}
+
+.retangulo{
+    width: 1032px;
+    height: 465px;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    padding: 5% 20%;
+}
+
+h3{
+    color:#9D9D9D;
+    font-size: 18px;
+}
+
+.cursos a{
+    text-decoration: none;
+    color: #FF4081;
+}
+
+.cursos h1{
+    font-size: 25px;
+}
+
+.cursos{
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cursos div{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    align-items: center;
+}
+
+.cursos img{
+    padding: 1%;
+    width: 187px;
+    height: 280px;
 }

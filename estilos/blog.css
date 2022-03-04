@@ -109,3 +109,7 @@ h2{
     margin: 1%;
     padding: 1%;
 }
+
+a{
+    text-decoration: none;
+}
